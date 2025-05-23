@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mainpage</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img class="header__logo" src="logo.svg" alt=pixmart."
+        class="logo__icon">
+      </a>
+
+      <nav class="top-menu">
+        <ul class="top-menu__list">
+          <li class="top-menu__item">
+            <a href="#" class="top-menu__link">About</a>
+          </li>
+          <li class="top-menu__item">
+            <a href="#" class="top-menu__link">Products</a>
+          </li>
+          <li class="top-menu__item">
+            <a href="#" class="top-menu__link">Creators</a>
+          </li>
+          <li class="top-menu__item">
+            <a href="#" class="top-menu__link">Blog</a>
+          </li>
+          <li class="top-menu__item">
+            <a href="#" class="top-menu__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="intro">
+        <div class="intro__wrapper">
+          <div class="intro__content">
+            <img class="intro__image" src="#" alt="conference" />
+            <h1 class="title">
+              Craft Your Success with Our
+              <span class="title__color">Digital</span> Assets
+            </h1>
+            <p>
+              From our inspiring illustrations to dynamic UI/UX kits, elevate
+              your projects with our premium digital design resources.
+            </p>
+            <div class="primary__button">
+              <button class="shop-now">Shop Now</button>
+              <button class="primary__button primary__button--secondary">
+                Watch About us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="Product-section">
+        <div class="product-section__categories">
+          <div class="product-section__items">
+            <img class="product-section__image" alt="UI Kits" src="#" />
+            <p class="product-section__description">UI Kits</p>
+          </div>
+
+          <div class="product-section__items">
+            <img class="product-section__image" src="#" alt="Social Media" />
+            <p class="product-section__description">Social Media</p>
+          </div>
+
+          <div class="product-section__items">
+            <img class="product-section__image" src="#" alt="Presentation" />
+            <p class="product-section__description">Presentation</p>
+          </div>
+
+          <div class="product-section__items">
+            <img src="#" alt="Fonts" />
+            <p class="product-section__description">Fonts</p>
+          </div>
+
+          <div class="product-section__items">
+            <img class="product-section__image" src="#" alt="Illustrations" />
+            <p class="product-section__description">Illustrations</p>
+          </div>
+        </div>
+      </section>
+      <div class="header__content">
+        <p>Categories</p>
+        <h2>Discover Assets for Every Projects</h2>
+        <p>
+          From fonts and icons to mockups and templates, our comprehensive
+          categories ensure that you find exactly what you need to your
+          projects.
+        </p>
+        <button class="content__button">Shop now</button>
+      </div>
+      <section class="popular-products">
+        <div class="container">
+          <p>Trending</p>
+          <h2 class="products__title">Popular Products</h2>
+          <ul class="product__list">
+            <li class="product__card">
+              <img src="#" alt="Travel Hero product preview" />
+              <div class="description">
+                <h3>Travel Hero</h3>
+                <p class="price">€19.99</p>
+              </div>
+            </li>
+            <li class="product-card">
+              <img src="#" alt="Healthcare Pro product preview" />
+              <div class="description">
+                <h3>Healthcare Pro</h3>
+                <p class="price">€29.99</p>
+                <a href="#" class="btn">Go to product</a>
+              </div>
+            </li>
+            <li class="product-card">
+              <img src="#" alt="Foodish Delight product preview" />
+              <div class="description">
+                <h3>Foodish Delight</h3>
+                <p class="price">€24.99</p>
+              </div>
+            </li>
+            <li class="product-card">
+              <img src="#" alt="Real Estate product preview" />
+              <div class="description">
+                <h3>Real Estate</h3>
+                <p class="price">€34.99</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="Pricing-section">
+        <header class="pricing__header">
+          <p class="pricng-plan">Pricing Plan</p>
+          <h1 class="pricing__title">
+            Choose The Perfect Plan for Creative Potential
+          </h1>
+        </header>
+
+        <div>
+          <!-- Standard Membership -->
+          <article class="pricing-items">
+            <h3 class="Membership">Standard Membership</h3>
+            <p class="pricing__price">
+              €14.99
+              <span class="pricing__price pricing__price--month">/Month</span>
+            </p>
+            <ul class="pricing__list">
+              <li class="pricing__description">Enhanced Resource Access</li>
+              <li class="pricing__description">Monthly Credits</li>
+              <li class="pricing__description">Priority Customer Support</li>
+              <li class="pricing__description">Community Features Access</li>
+            </ul>
+            <button type="button">Subscribe</button>
+          </article>
+
+          <!-- Plus Membership -->
+          <article class="pricing-items">
+            <h3 class="Membership">Standard Membership</h3>
+            <span>Best Seller</span>
+            <p class="pricing__price">
+              €29.99
+              <span class="pricing__price pricing--price--month">/Month</span>
+            </p>
+            <ul class="pricing__list">
+              <li class="pricing__items">All Standard Benefits</li>
+              <li class="pricing__description">Increased Monthly Credits</li>
+              <li class="pricing__description">Early Access to New Releases</li>
+              <li class="pricing__description">Member-Only Offers</li>
+            </ul>
+            <button type="button">Subscribe</button>
+          </article>
+
+          <!-- Pro Membership -->
+          <article class="pricing-items">
+            <h3 class="Membership">Standard Membership</h3>
+            <p class="pricing__price">
+              €49.99
+              <span class="pricing__price pricing--price--month">/Month</span>
+            </p>
+            <ul class="pricing__list">
+              <li class="pricing__description">All Plus Benefits</li>
+              <li class="pricing__description">Unlimited Downloads</li>
+              <li class="pricing__description">Custom Licensing</li>
+              <li class="pricing__description">Direct Creator Collaboration</li>
+            </ul>
+            <button type="button">Subscribe</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="faq-content">
+          <div class="faq-header">
+            <span class="faq-tag">F.A.Q</span>
+            <h2 class="faq-title">Answers to Your Questions</h2>
+            <button class="ask-button">Ask Us A Question</button>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary class="faq-question">Can I request a refund?</summary>
+            </details>
+            <details class="faq-item" open>
+              <summary class="faq-question">
+                How do I access my purchased products?
+              </summary>
+              <div class="faq-answer">
+                <p>
+                  Accessing your purchased products is seamless and hassle-free
+                  on our digital design assets marketplace. Simply log in to
+                  your account, navigate to the "My Purchases" section, and
+                  you'll find all your purchased products ready for download.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                Are there any discounts for bulk purchases?
+              </summary>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                What payment methods do you accept here?
+              </summary>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                Can I sell my digital products on this marketplace?
+              </summary>
+            </details>
+          </div>
+          <!-- End of .faq-list -->
+        </div>
+        <!-- End of .faq-content -->
+      </section>
+      <!-- End of .faq -->
+      <section class="blog">
+        <div class="blog__header">
+          <h2 class="blog__title">Latest Expert</h2>
+          <a href="#" class="blog__link">Explore All Articles ›</a>
+        </div>
+
+        <div class="blog-grid">
+          <div class="blog-card">
+            <img src="#" alt="Creative Blog" class="blog__image" />
+            <h3 class="blog-card__title">Creative Blog</h3>
+            <p class="blog-card__date">15 April 2024</p>
+          </div>
+
+          <div class="blog-card">
+            <img src="#" alt="Best Dishes" class="blog__image" />
+            <h3 class="blog-card__title">Best Dishes</h3>
+            <p class="blog-card__date">5 May 2024</p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-top">
+          <!-- Left side: Logo, description, social buttons -->
+          <div class="footer-left">
+            <h2 class="footer-logo">Pixmart.</h2>
+            <p class="footer-description">
+              Your premium digital assets solution with high quality and
+              comprehensive range of products and services.
+            </p>
+            <div class="footer-socials">
+              <button type="button" class="social-button twitter"></button>
+              <button type="button" class="social-button facebook"></button>
+              <button type="button" class="social-button telegram"></button>
+            </div>
+          </div>
+
+          <!-- Center: Navigation columns -->
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4 class="footer-menu">Company</h4>
+              <ul class="footer-list">
+                <li><a href="#">Homepage v1</a></li>
+                <li><a href="#">Homepage v2</a></li>
+                <li><a href="#">Homepage v3</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog Articles</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4 class="footer-menu">Products</h4>
+              <ul class="footer-list">
+                <li><a href="#">Website</a></li>
+                <li><a href="#">Mobile App</a></li>
+                <li><a href="#">Social Media Feeds</a></li>
+                <li><a href="#">Presentation</a></li>
+                <li><a href="#">Illustrations</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4 class="footer-menu">Account</h4>
+              <ul class="footer-list">
+                <li><a href="#">Your Cart</a></li>
+                <li><a href="#">Check Out</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Send A Message</a></li>
+                <li><a href="#">Customer Support</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right side: Newsletter -->
+          <div class="footer-newsletter">
+            <h4>Subscribe to Design Newsletter</h4>
+            <form>
+              <input type="email" placeholder="Enter your email address" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Bottom row -->
+        <div class="footer-bottom">
+          <div class="footer-bottom__links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Condition</a>
+            <a href="#">Site Map</a>
+          </div>
+          <p class="footer__copyright">© 2024 Pixmart. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
