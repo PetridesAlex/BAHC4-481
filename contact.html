@@ -534,4 +534,100 @@ textarea {
   font-size: 12px;
 }
 
+
+  /* ------------------------------
+   MEDIA QUERIES – RESPONSIVE DESIGN
+------------------------------ */
+
+/* Tablets (≤ 1024px) */
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px 40px;
+  }
+
+  .contact {
+    padding: 40px 40px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .contact-info,
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .map {
+    max-width: 100%;
+  }
+
+  .footer__middle {
+    flex-direction: column;
+    gap: 32px;
+    min-width: auto;
+  }
+
+  .footer__newsletter {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+  .top-menu__list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact {
+    padding: 30px 20px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-form {
+    padding: 30px 20px;
+  }
+
+  .footer__newsletter input,
+  .footer__newsletter button {
+    width: 100%;
+  }
+
+  .footer__copyright {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 0;
+    text-align: center;
+  }
+}
+
+/* Small Phones (≤ 480px) */
+@media (max-width: 480px) {
+  .contact {
+    padding: 24px 16px;
+  }
+
+  .form-options label {
+    font-size: 12px;
+  }
+
+  .footer__middle {
+    gap: 24px;
+  }
+}
+
           
