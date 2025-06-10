@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mainpage</title>
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
  <body>
 
   <header class="header">
     <div class="header-left">
       <a href="index.html" class="logo">
-        <img class="header__logo" src="/src/logo.svg" alt="pixmart" />
+        <img class="header__logo" src="/src/images/logo.svg" alt="pixmart" />
       </a>
     </div>
   
@@ -58,7 +57,7 @@
           <div class="intro__image">
             <img
               class="intro__img"
-              src="/src/images/heroimg.webp"
+              src="/src/images/static/heroimg.webp"
               alt="Main Preview"
             />
           </div>
@@ -155,19 +154,19 @@
           </div>
           <ul class="product__list">
             <li class="product__card">
-              <img class="product__image" src="/src/images/homepage-card1.webp" alt="Travel Hero product preview" />
+              <img class="product__image" src="/src/images/static/homepage-card1.webp" alt="Travel Hero product preview" />
              
             </li>
             <li class="product-card">
-              <img class="product__image" src="/src/images/homepage-card2.webp" alt="Healthcare Pro product preview" />
+              <img class="product__image" src="/src/images/static/homepage-card2.webp" alt="Healthcare Pro product preview" />
               
             </li>
             <li class="product-card">
-              <img class="product__image" src="/src/images/homepage-card3.webp" alt="Foodish Delight product preview" />
+              <img class="product__image" src="/src/images/static/homepage-card3.webp" alt="Foodish Delight product preview" />
                
             </li>
             <li class="product-card">
-              <img class="product__image" src="/src/images/homepage-card4.webp" alt="Real Estate product preview" />
+              <img class="product__image" src="/src/images/static/homepage-card4.webp" alt="Real Estate product preview" />
             </li>
           </ul>
         </div>
@@ -273,7 +272,7 @@
         <div class="blog-grid">
           <div class="blog-item">
             <div class="blog-card">
-              <img src="src/images/Creative-blog.webp" alt="Creative Blog" class="blog__image" />
+              <img src="/src/images/static/Creative-blog.webp" alt="Creative Blog" class="blog__image" />
             </div>
             <h3 class="blog-card__title">Creative Blog</h3>
             <p class="blog-card__date">15 April 2024</p>
@@ -281,7 +280,7 @@
       
           <div class="blog-item">
             <div class="blog-card">
-              <img src="src/images/best-Dishes.webp" alt="Best Dishes" class="blog__image" />
+              <img src="src/images/static/best-Dishes.webp" alt="Best Dishes" class="blog__image" />
             </div>
             <h3 class="blog-card__title">Best Dishes</h3>
             <p class="blog-card__date">5 May 2024</p>
@@ -358,8 +357,10 @@
 </html>
 
 
-<----------CSS STYLE HERE ---------------->
 
+
+
+<-------------CSS STYLE HERE---------->
 
 
 
@@ -377,7 +378,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 24px 60px;
+  padding: 24px 60px 24px 60px;
   background-color: #f8f4f4;
   position: sticky;
   gap: 40px;
@@ -396,7 +397,7 @@ body {
 .top-menu {
   flex: 1;
   display: flex;
-  justify-content: center;
+  gap: 50px;
 }
 
 .top-menu__list {
@@ -473,7 +474,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 1440px;
+  height: 730px;
 }
 
 .intro__content {
@@ -538,24 +540,22 @@ body {
 }
 
 .intro__image {
-  width: 580px;
-  max-width: 100%;
+  width: 624px;
+  height: 544px;
   border-radius: 12px;
-}
-
-.intro__content {
-  padding-bottom: 60px;
 }
 
 .Product-section {
   padding: 80px 60px;
   background-color: #ffffff;
+  margin-top: 60px;
 }
 
 .product-section__categories {
   display: flex;
   justify-content: space-between;
   gap: 15px;
+  margin-top: 40px;
 }
 
 .product-section__items {
@@ -568,6 +568,7 @@ body {
 .product-section__icon-box {
   background-color: #f9fafe;
   padding: 32px;
+  margin-top: 400px;
   border: 1px solid #e5eaf0;
   border-radius: 20px;
   transition: all 0.3s ease;
@@ -579,8 +580,8 @@ body {
 }
 
 .product-section__image {
-  width: 64px;
-  height: 64px;
+  width: 224px;
+  height: 224px;
   object-fit: contain;
 }
 
@@ -728,6 +729,18 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   justify-content: space-between;
+}
+
+.products__header p {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  color: #3b82f6;
+  margin: 20px;
+}
+
+.products__title {
+  margin: 20px;
 }
 
 .product__card,
@@ -1169,7 +1182,6 @@ body {
   font-size: 12px;
 }
 
-
 /* ------------------------------
    MEDIA QUERIES – RESPONSIVE DESIGN
 ------------------------------ */
@@ -1357,7 +1369,6 @@ body {
     display: none;
   }
 }
-
 
 
 
