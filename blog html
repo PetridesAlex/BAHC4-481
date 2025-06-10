@@ -10,7 +10,7 @@
   <body>
     <header class="header">
         <a href="index.html" class="logo">
-          <img class="header__logo" src="/src/logo.svg" alt=pixmart."
+          <img class="header__logo" src="/src/images/logo.svg" alt=pixmart."
           class="logo__icon">
         </a>
           <nav class="top-menu">
@@ -42,7 +42,7 @@
             Mastering the Art of Typography: Tips for Eye-Catching Designs for
             2024
           </h1>
-          <img src="img/mainimg.webp" alt="data" class="article-picture" />
+          <img src="/src/images/static/mainimg.webp" alt="data" class="article-picture" />
 
         </div>
       </section>
@@ -51,7 +51,7 @@
 <section class="article__content">
 <aside class="article__sidebar">
   <div class="author">
-    <img src="img/emma2.webp" alt="Emma Clarke" class="author__avatar" />
+    <img src="/src/images/static/emma2.webp" alt="Emma Clarke" class="author__avatar" />
     <div class="author__info">
       <p class="author__name">Emma Clarke</p>
       <p class="author__date">April 10, 2024</p>
@@ -90,7 +90,7 @@
             <p>A well-defined typographic hierarchy organizes information, making it easier for readers to navigate through the content. Use different font sizes, weights, and styles to differentiate between headings, subheadings, and body text. This hierarchy not only improves readability but also adds visual interest to your next future design.</p>
 
             <img
-              src="img/photocontent.webp"
+              src="/src/images/static/photocontent.webp"
               alt="Font usage grid"
               class="article__grid-image"
             />
@@ -115,14 +115,14 @@
     <div class="related-articles__grid">
       <div class="related-card">
         <!-- First Card -->
-        <img src="/img/news1.webp" alt="Best Dishes" />
+        <img src="/src/images/static/news1.webp" alt="Best Dishes" />
         <h4>Best Dishes</h4>
         <p class="date">15 April, 2024</p>
       </div>
     
       <div class="related-card">
         <!-- Second Card -->
-        <img src="/img/news2.webp" alt="Contact UX Lotus Spa" />
+        <img src="/src/images/static/news2.webp" alt="Contact UX Lotus Spa" />
         <h4>Contact UX Lotus Spa</h4>
         <p class="date">5 May, 2024</p>
       </div>
@@ -131,7 +131,7 @@
     <!-- Third card in its own centered row -->
     <div class="related-articles__grid--center">
       <div class="related-card wide-card">
-        <img src="/img/news3.webp" alt="Creative Blog" />
+        <img src="/src/images/static/news3.webp" alt="Creative Blog" />
         <h4>Creative Blog</h4>
         <p class="date">21 May, 2024</p>
       </div>
@@ -206,10 +206,9 @@
 
 
 
-<--------CSS STYLE HERE-------------->
 
 
-
+<---------CSS STYLE HERE------------>
 
 
 
@@ -580,7 +579,6 @@ blockquote {
   font-size: 12px;
 }
 
-
 /* ------------------------------
    MEDIA QUERIES – RESPONSIVE DESIGN
 ------------------------------ */
@@ -689,11 +687,3 @@ blockquote {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
