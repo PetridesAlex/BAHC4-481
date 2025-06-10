@@ -579,3 +579,121 @@ blockquote {
   text-decoration: none;
   font-size: 12px;
 }
+
+
+/* ------------------------------
+   MEDIA QUERIES – RESPONSIVE DESIGN
+------------------------------ */
+
+/* Tablets (≤ 1024px) */
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px 40px;
+  }
+
+  .article__container {
+    padding: 0 20px;
+  }
+
+  .article__content {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0;
+  }
+
+  .article-picture,
+  .article__grid-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .related-articles__grid {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer__middle {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .wide-card {
+    width: 100%;
+  }
+}
+
+/* Mobile (≤ 768px) */
+@media (max-width: 768px) {
+  .top-menu__list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .article__title {
+    font-size: 32px;
+    line-height: 1.4;
+    width: 100%;
+    height: auto;
+  }
+
+  .article__category {
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+  }
+
+  .article__sidebar {
+    padding: 0 0 40px;
+  }
+
+  .article__download-link {
+    justify-content: center;
+  }
+
+  .related-card,
+  .wide-card {
+    width: 100%;
+  }
+
+  .footer__newsletter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer__copyright {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    padding: 16px 0;
+  }
+}
+
+/* Small Phones (≤ 480px) */
+@media (max-width: 480px) {
+  .article {
+    padding: 20px;
+  }
+
+  .article__body p {
+    font-size: 16px;
+  }
+
+  .footer__newsletter input {
+    width: 100%;
+  }
+
+  .footer__newsletter button {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
