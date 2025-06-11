@@ -10,8 +10,8 @@
   <body>
     <header class="header">
       <a href="index.html" class="logo">
-        <img class="header__logo" src="/src/logo.svg" alt=pixmart."
-        class="logo__icon">
+        <img class="header__logo" src="/src/images/static/Icon/logo.svg"
+        alt=pixmart." class="logo__icon">
       </a>
       <nav class="top-menu">
         <ul class="top-menu__list">
@@ -85,10 +85,32 @@
 
       <section class="catalog-content">
         <div class="catalog-controls">
-          <select class="sort-select">
-            <option>Best Seller</option>
-          </select>
-          <span class="results-count">Showing 12 out of 120 results</span>
+          <div class="catalog-controls__left">
+            <select class="sort-select">
+              <option>Best Seller</option>
+            </select>
+            <div class="filter-tags">
+              <button class="tag-button">UI Kit x</button>
+              <button class="tag-button">UI Kit x</button>
+            </div>
+          </div>
+          <div class="catalog-controls__right">
+            <span class="results-count">Showing 12 out of 120 results</span>
+            <div class="view-toggle">
+              <button class="view-btn">
+                <img
+                  src="/src/images/static/Icon/catalogfilterbtn.svg"
+                  alt="Grid View"
+                />
+              </button>
+              <button class="view-btn">
+                <img
+                  src="/src/images/static/Icon/catalog2filterbtn.svg"
+                  alt="List View"
+                />
+              </button>
+            </div>
+          </div>
         </div>
 
         <div class="catalog-grid">
@@ -133,7 +155,10 @@
           </article>
 
           <article class="product-card new">
-            <img src="/src/images/static/card11.webp" alt="Analytical Dashboard" />
+            <img
+              src="/src/images/static/card11.webp"
+              alt="Analytical Dashboard"
+            />
           </article>
 
           <article class="product-card sold-out">
@@ -226,11 +251,7 @@
 </html>
 
 
-
-
-<----------CSS STYLE HERE------------->
-
-
+<-------CSS STYLE HERE---------->
 
 
 
@@ -366,6 +387,55 @@ h4 {
   align-items: center;
   margin-bottom: 24px;
 }
+
+.catalog-controls__left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.filter-tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tag-button {
+  background-color: #f3f4f6;
+  color: #111827;
+  border: none;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.catalog-controls__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 8px;
+}
+
+.view-btn {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.view-btn img {
+  width: 18px;
+  height: 18px;
+}
+
+
+
+
 
 .sort-select {
   padding: 8px;
