@@ -1,5 +1,6 @@
 {% set title = "Catalog" %}
 {% set cssFile = "catalog.css" %}
+{% extends "layouts/base.njk" %}
 
 {% block content %}
   <section class="catalog-header">
@@ -27,13 +28,13 @@
         </ul>
 
         <h3>Format Type</h3>
-        <ul class="filter-list">
-          <li><input type="checkbox" /> Figma</li>
-          <li><input type="checkbox" /> Sketch</li>
-          <li><input type="checkbox" /> Adobe XD</li>
-          <li><input type="checkbox" /> Photoshop</li>
-          <li><input type="checkbox" /> Illustrator</li>
-        </ul>
+
+          <ul class="filter-list">
+            {% for item in filterList %}
+              <li><input type="checkbox" /> {{ item.title }}</li>
+            {% endfor %}
+          </ul>
+        
 
         <h3>Style</h3>
         <ul class="filter-list">

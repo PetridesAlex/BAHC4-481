@@ -1,4 +1,9 @@
 {
-  "title": "test",
-  "h1": ""
+  "filterList": [
+    { "title": "Figma" },
+    { "title": "Sketch" },
+    { "title": "Adobe XD" },
+    { "title": "Photoshop" },
+    { "title": "Illustrator" }
+  ]
 }
