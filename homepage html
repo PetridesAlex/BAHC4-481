@@ -12,7 +12,7 @@
   <header class="header">
     <div class="header-left">
       <a href="index.html" class="logo">
-        <img class="header__logo" src="/src/images/logo.svg" alt="pixmart" />
+        <img class="header__logo" src="/src/images/static/Icon/logo.svg" alt="pixmart" />
       </a>
     </div>
   
@@ -29,10 +29,10 @@
     <div class="header-right">
       <div class="header-search">
         <input type="text" placeholder="Search for Digital Assets" />
-      <button class="header-cart-btn">
-        <img src="img/Buttons (1).svg" alt="Cart" />
-      </button>
-    </div>
+    <button class="header-cart-btn">
+      <img src="/src/images/static/Icon/Buttons (1).svg" alt="Cart" />
+    </button>
+  </div>
     </div>
   </header>
        <main class="main">
@@ -49,6 +49,7 @@
             <div class="primary__button">
               <button class="shop-now">Shop Now</button>
               <button class="primary__button primary__button--secondary">
+                <img src="/src/images/static/Icon/play-icon.svg" alt="" class="button-icon" />
                 Watch About Us
               </button>
             </div>
@@ -67,35 +68,35 @@
         <div class="product-section__categories">
           <div class="product-section__items">
             <div class="product-section__icon-box">
-              <img class="product-section__image" src="./src/images/ui kits.svg" alt="UI Kits" />
+              <img class="product-section__image" src="/src/images/static/Icon/ui kits.svg" alt="UI Kits" />
             </div>
             <p class="product-section__description">UI Kits</p>
           </div>
           
           <div class="product-section__items">
             <div class="product-section__icon-box">
-              <img class="product-section__image" src="./src/images/social-media.svg" alt="Social Media" />
+              <img class="product-section__image" src="/src/images/static/Icon/social-media.svg" alt="Social Media" />
             </div>
             <p class="product-section__description">Social Media</p>
           </div>
       
           <div class="product-section__items">
             <div class="product-section__icon-box">
-              <img class="product-section__image" src="./src/images/presentation.svg" alt="Presentation" />
+              <img class="product-section__image" src="/src/images/static/Icon/presentation.svg" alt="Presentation" />
             </div>
             <p class="product-section__description">Presentation</p>
           </div>
       
           <div class="product-section__items">
             <div class="product-section__icon-box">
-              <img class="product-section__image" src="./src/images/Fonts.svg" alt="Fonts" />
+              <img class="product-section__image" src="/src/images/static/Icon/Fonts.svg" alt="Fonts" />
             </div>
             <p class="product-section__description">Fonts</p>
           </div>
       
           <div class="product-section__items">
             <div class="product-section__icon-box">
-              <img class="product-section__image" src="./src/images/illustrations.svg" alt="Illustrations" />
+              <img class="product-section__image" src="/src/images/static/Icon/illustrations.svg" alt="Illustrations" />
             </div>
             <p class="product-section__description">Illustrations</p>
           </div>
@@ -108,22 +109,22 @@
           <!-- Left Column -->
           <div class="categories__left">
             <div class="category-box">
-              <img src="src/images/desktop.svg" alt="desktop" class="category-icon">
+              <img src="/src/images/static/Icon/desktop.svg" alt="desktop" class="category-icon">
               <h4 class="category-title">Templates</h4>
               <p class="category-sub">For all needs • Modern</p>
             </div>
             <div class="category-box">
-              <img src="src/images/phone.svg" alt="Slides" class="category-icon">
+              <img src="/src/images/static/Icon/phone.svg" alt="Slides" class="category-icon">
               <h4 class="category-title">Slides</h4>
               <p class="category-sub">Pitch-ready • Creative</p>
             </div>
             <div class="category-box highlight">
-              <img src="src/images/slides.svg" alt="App Icons" class="category-icon">
+              <img src="/src/images/static/Icon/slides.svg" alt="App Icons" class="category-icon">
               <h4 class="category-title">App Icons</h4>
               <p class="category-sub">High-quality • Elegant</p>
             </div>
             <div class="category-box">
-              <img src="src/images/paint.svg" alt="Design Tools" class="category-icon">
+              <img src="/src/images/static/Icon/paint.svg" alt="Design Tools" class="category-icon">
               <h4 class="category-title">Design Tools</h4>
               <p class="category-sub">Easy to use • Unique</p>
             </div>
@@ -359,8 +360,10 @@
 
 
 
+<-------------CSS STLE HERE------------------>
 
-<-------------CSS STYLE HERE---------->
+
+
 
 
 
@@ -379,7 +382,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 24px 60px 24px 60px;
-  background-color: #f8f4f4;
+  background-color: #ffffff;
   position: sticky;
   gap: 40px;
 }
@@ -427,12 +430,11 @@ body {
 /* SEARCH BAR */
 
 .header-search {
+  display: flex;
   background-color: #f8fafc;
   border: 1px solid #dce3ea;
   border-radius: 8px;
-  padding: 0 12px;
-  width: 240px;
-  height: 40px;
+  padding: 0;
 }
 
 .header-search input {
@@ -453,7 +455,7 @@ body {
   border: 1px solid #dce3ea;
   border-radius: 8px;
   cursor: pointer;
-  padding: 0;
+  gap: 10px;
 }
 
 .header-cart-btn img {
@@ -462,7 +464,7 @@ body {
 }
 
 .intro {
-  background-color: #f4f7fa; /* BG/Alternative2 from Figma */
+  background-color:#F0F6FD /* BG/Alternative2 from Figma */
   padding: 100px 60px;
   display: flex;
   align-items: center;
@@ -480,6 +482,7 @@ body {
 
 .intro__content {
   max-width: 600px;
+  margin: 40px;
 }
 
 .title {
@@ -487,7 +490,7 @@ body {
   font-weight: 700;
   line-height: 1.2;
   color: #111827;
-  margin-bottom: 24px;
+  margin: 24px;
 }
 
 .title__color {
@@ -539,6 +542,15 @@ body {
   border-color: #9ca3af;
 }
 
+.button-icon {
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 22px;
+  angle: -90 deg;
+  border-radius: 1px;
+}
+
 .intro__image {
   width: 624px;
   height: 544px;
@@ -548,7 +560,7 @@ body {
 .Product-section {
   padding: 80px 60px;
   background-color: #ffffff;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 
 .product-section__categories {
@@ -725,7 +737,7 @@ body {
   gap: 24px;
   overflow-x: auto;
   list-style: none;
-  margin: 32px 80px 0;
+  margin: 32px 40px 0;
   padding: 0;
   scroll-behavior: smooth;
   justify-content: space-between;
@@ -736,11 +748,11 @@ body {
   font-size: 12px;
   font-weight: 600;
   color: #3b82f6;
-  margin: 20px;
+  margin: 50px;
 }
 
 .products__title {
-  margin: 20px;
+  margin: 50px;
 }
 
 .product__card,
@@ -1369,12 +1381,3 @@ body {
     display: none;
   }
 }
-
-
-
-
-
-
-
-
-
